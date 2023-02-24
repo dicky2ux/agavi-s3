@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "nodemon ./bin/www",
-    "start": "node ./bin/www"
+    "start": "node app.js"
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.276.0",
@@ -23,8 +23,5 @@
     "nodemon": "^2.0.20",
     "streaming-s3": "^0.4.5",
     "uuid": "^9.0.0"
-  },
-  "devDependencies": {
-    "sequelize-cli": "^6.6.0"
   }
 }
