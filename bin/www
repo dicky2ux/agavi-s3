@@ -5,7 +5,7 @@
  */
 
 var app = require('../app');
-var debug = require('debug')('agavi-upload:server');
+var debug = require('debug')('agavi-s3:server');
 var http = require('http');
 
 /**
